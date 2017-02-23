@@ -5,13 +5,12 @@
 ** Login   <simon.lejeune@epitech.eu>
 **
 ** Started on  Thu Feb 23 10:45:47 2017 Simon LEJEUNE
-** Last update Thu Feb 23 11:20:25 2017 Simon LEJEUNE
+** Last update Thu Feb 23 11:27:08 2017 Simon LEJEUNE
 */
 
-#include <Vector2.hpp>
-#include <Vector3.hpp>
+#include <SFML/Graphics.h>
 
 float get_light_coef(sfVector3f light_vector, sfVector3f normal_vector)
 {
-  return (0);
+
 }
