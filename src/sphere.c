@@ -5,12 +5,12 @@
 ** Login   <simon.lejeune@epitech.eu>
 **
 ** Started on  Thu Feb 23 10:44:31 2017 Simon LEJEUNE
-** Last update Thu Feb 23 11:27:33 2017 Simon LEJEUNE
+** Last update Thu Feb 23 11:50:27 2017 Simon
 */
 
 #include <SFML/Graphics.h>
 
-float intersect_plane(sfVector3f eye_pos, sfVector3f dir_vector)
+float intersect_sphere(sfVector3f eye_pos, sfVector3f dir_vector)
 {
 
 }
