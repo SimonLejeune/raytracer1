@@ -5,12 +5,16 @@
 ** Login   <simon.lejeune@epitech.eu>
 **
 ** Started on  Thu Feb 23 10:43:17 2017 Simon LEJEUNE
-** Last update Thu Feb 23 11:26:53 2017 Simon LEJEUNE
+** Last update Mon Mar 13 23:36:35 2017 Simon LEJEUNE
 */
 
 #include <SFML/Graphics.h>
 
+#include "my.h"
+#include "struct.h"
+
 sfVector3f	calc_dir_vector(float dis_to_plane, sfVector2i screen_size, sfVector2i screen_pos)
 {
-  
+  (SCREEN_WIDTH/2) - screen_pos.x;
+  (SCREEN_HEIGHT/2) - screen_pos.y:
 }
