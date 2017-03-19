@@ -5,10 +5,10 @@
 ** Login   <simon.lejeune@epitech.eu>
 **
 ** Started on  Mon Mar 13 19:26:12 2017 Simon LEJEUNE
-** Last update Mon Mar 13 19:46:16 2017 Simon LEJEUNE
+** Last update Sun Mar 19 17:13:07 2017 Simon LEJEUNE
 */
 
-##ifndef STRUCT_H
+#ifndef STRUCT_H
 #define STRUCT_H
 
 typedef	struct	s_sphere

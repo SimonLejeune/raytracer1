@@ -5,12 +5,12 @@
 ## Login   <simon.lejeune@epitech.eu>
 ##
 ## Started on  Thu Feb 23 10:42:16 2017 Simon LEJEUNE
-## Last update Mon Mar 13 19:41:47 2017 Simon LEJEUNE
+## Last update Sun Mar 19 18:13:59 2017 Simon LEJEUNE
 ##
 
 CC	=	gcc
 
-CFLAGS	=	-lc_graph_prog -I include
+CFLAGS	=	-lc_graph_prog -I ./include
 
 SRC	=	src/calc_dir_vector.c \
 		src/cone.c \
@@ -20,7 +20,8 @@ SRC	=	src/calc_dir_vector.c \
 		src/plane.c \
 		src/rotate.c \
 		src/sphere.c \
-		src/translate.c
+		src/translate.c \
+		src/open_window.c
 
 OBJ	=	$(SRC:.c=.o)
 
